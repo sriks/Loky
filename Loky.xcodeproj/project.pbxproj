@@ -7,18 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3422A98F16A8428D004891D7 /* LKReminderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3422A98E16A8428C004891D7 /* LKReminderTableViewCell.m */; };
+		3422A99116A842C8004891D7 /* LKReminderCell_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3422A99016A842C7004891D7 /* LKReminderCell_iPhone.xib */; };
+		342671A716C31A6300994966 /* material_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 342671A616C31A6300994966 /* material_02.jpg */; };
+		34488AF316412D2F00A06A3A /* LKLocationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34488AF216412D2F00A06A3A /* LKLocationDelegate.m */; };
+		3465F79016F5F529006DB311 /* DCPanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3465F78F16F5F529006DB311 /* DCPanGesture.m */; };
+		34CA24D01629B64F00B90D1A /* LKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CA24CF1629B64F00B90D1A /* LKUtils.m */; };
+		34DAC48B16FA02810087AE0A /* ReminderSummaryView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DAC48A16FA02810087AE0A /* ReminderSummaryView_iPhone.xib */; };
+		34DAC49216FA08030087AE0A /* LKReminderSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DAC49116FA08030087AE0A /* LKReminderSummary.m */; };
+		34DCA6F7169AF79800434658 /* UIView+DCUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCA6F6169AF79800434658 /* UIView+DCUIView.m */; };
+		34DCA6FA169AF84B00434658 /* darkbackground@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34DCA6F9169AF84B00434658 /* darkbackground@2x.jpg */; };
 		34E1CC8116135ACB00C4AE32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E1CC8016135ACB00C4AE32 /* UIKit.framework */; };
 		34E1CC8316135ACB00C4AE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E1CC8216135ACB00C4AE32 /* Foundation.framework */; };
 		34E1CC8516135ACB00C4AE32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E1CC8416135ACB00C4AE32 /* CoreGraphics.framework */; };
 		34E1CC8B16135ACB00C4AE32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34E1CC8916135ACB00C4AE32 /* InfoPlist.strings */; };
 		34E1CC8D16135ACB00C4AE32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1CC8C16135ACB00C4AE32 /* main.m */; };
 		34E1CC9116135ACB00C4AE32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1CC9016135ACB00C4AE32 /* AppDelegate.m */; };
-		34E1CC9416135ACB00C4AE32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1CC9316135ACB00C4AE32 /* ViewController.m */; };
-		34E1CC9716135ACB00C4AE32 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E1CC9516135ACB00C4AE32 /* ViewController_iPhone.xib */; };
-		34E1CC9A16135ACB00C4AE32 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E1CC9816135ACB00C4AE32 /* ViewController_iPad.xib */; };
+		34E1CCA116135AFD00C4AE32 /* LocationSelectionView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E1CCA016135AFD00C4AE32 /* LocationSelectionView_iPhone.xib */; };
+		34E1CCA416135B7200C4AE32 /* LocationSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1CCA316135B7200C4AE32 /* LocationSelectionViewController.m */; };
+		34E1CCA616135BC200C4AE32 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E1CCA516135BC200C4AE32 /* MapKit.framework */; };
+		34F7FED21614A1330050EB60 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7FED11614A1330050EB60 /* CoreLocation.framework */; };
+		34F7FEF8161C6F500050EB60 /* LKMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FEF7161C6F4F0050EB60 /* LKMediator.m */; };
+		34F7FEFC161C75470050EB60 /* LKThemeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FEFB161C75470050EB60 /* LKThemeProvider.m */; };
+		34F7FF0D161F04F40050EB60 /* LKMapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FF0C161F04F40050EB60 /* LKMapLocation.m */; };
+		34F7FF10161F22CE0050EB60 /* LKReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FF0F161F22CE0050EB60 /* LKReminder.m */; };
+		34F7FF13161F32050050EB60 /* LKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FF12161F32050050EB60 /* LKManager.m */; };
+		34F7FF18161F3E2F0050EB60 /* AllRemindersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FF16161F3E2E0050EB60 /* AllRemindersViewController.m */; };
+		34F7FF1C161F40460050EB60 /* LKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FF1B161F40460050EB60 /* LKConstants.m */; };
+		34F7FF1F162069A50050EB60 /* AllRemindersView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F7FF1E162069A40050EB60 /* AllRemindersView_iPhone.xib */; };
+		34F7FF22162074280050EB60 /* LKReminderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FF21162074280050EB60 /* LKReminderModel.m */; };
+		34F7FF63162445010050EB60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7FF62162445010050EB60 /* QuartzCore.framework */; };
+		34F7FF6C16257B6A0050EB60 /* AddReminderView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F7FF6B16257B6A0050EB60 /* AddReminderView_iPhone.xib */; };
+		34F7FF6F162580A40050EB60 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F7FF6E162580A30050EB60 /* AddReminderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3422A98D16A8428C004891D7 /* LKReminderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKReminderTableViewCell.h; path = ../LKReminderTableViewCell.h; sourceTree = "<group>"; };
+		3422A98E16A8428C004891D7 /* LKReminderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKReminderTableViewCell.m; path = ../LKReminderTableViewCell.m; sourceTree = "<group>"; };
+		3422A99016A842C7004891D7 /* LKReminderCell_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKReminderCell_iPhone.xib; sourceTree = "<group>"; };
+		342671A616C31A6300994966 /* material_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = material_02.jpg; sourceTree = "<group>"; };
+		342671E216C9A56800994966 /* LKPanGestureProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKPanGestureProtocol.h; sourceTree = "<group>"; };
+		34488AF116412D2F00A06A3A /* LKLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLocationDelegate.h; sourceTree = "<group>"; };
+		34488AF216412D2F00A06A3A /* LKLocationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLocationDelegate.m; sourceTree = "<group>"; };
+		3465F78E16F5F529006DB311 /* DCPanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPanGesture.h; sourceTree = "<group>"; };
+		3465F78F16F5F529006DB311 /* DCPanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPanGesture.m; sourceTree = "<group>"; };
+		34CA24CE1629B64F00B90D1A /* LKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUtils.h; sourceTree = "<group>"; };
+		34CA24CF1629B64F00B90D1A /* LKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUtils.m; sourceTree = "<group>"; };
+		34DAC48A16FA02810087AE0A /* ReminderSummaryView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderSummaryView_iPhone.xib; sourceTree = "<group>"; };
+		34DAC49016FA08030087AE0A /* LKReminderSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKReminderSummary.h; sourceTree = "<group>"; };
+		34DAC49116FA08030087AE0A /* LKReminderSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKReminderSummary.m; sourceTree = "<group>"; };
+		34DCA6F5169AF79700434658 /* UIView+DCUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DCUIView.h"; path = "../../categories/UIView+DCUIView.h"; sourceTree = "<group>"; };
+		34DCA6F6169AF79800434658 /* UIView+DCUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DCUIView.m"; path = "../../categories/UIView+DCUIView.m"; sourceTree = "<group>"; };
+		34DCA6F9169AF84B00434658 /* darkbackground@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "darkbackground@2x.jpg"; sourceTree = "<group>"; };
 		34E1CC7C16135ACB00C4AE32 /* Loky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E1CC8016135ACB00C4AE32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		34E1CC8216135ACB00C4AE32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,10 +69,33 @@
 		34E1CC8E16135ACB00C4AE32 /* Loky-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Loky-Prefix.pch"; sourceTree = "<group>"; };
 		34E1CC8F16135ACB00C4AE32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34E1CC9016135ACB00C4AE32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34E1CC9216135ACB00C4AE32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34E1CC9316135ACB00C4AE32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		34E1CC9616135ACB00C4AE32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		34E1CC9916135ACB00C4AE32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		34E1CCA016135AFD00C4AE32 /* LocationSelectionView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationSelectionView_iPhone.xib; sourceTree = "<group>"; };
+		34E1CCA216135B7200C4AE32 /* LocationSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSelectionViewController.h; sourceTree = "<group>"; };
+		34E1CCA316135B7200C4AE32 /* LocationSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSelectionViewController.m; sourceTree = "<group>"; };
+		34E1CCA516135BC200C4AE32 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		34F7FED11614A1330050EB60 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		34F7FEF6161C6F4F0050EB60 /* LKMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMediator.h; sourceTree = "<group>"; };
+		34F7FEF7161C6F4F0050EB60 /* LKMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMediator.m; sourceTree = "<group>"; };
+		34F7FEFA161C75470050EB60 /* LKThemeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKThemeProvider.h; sourceTree = "<group>"; };
+		34F7FEFB161C75470050EB60 /* LKThemeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKThemeProvider.m; sourceTree = "<group>"; };
+		34F7FF0B161F04F40050EB60 /* LKMapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMapLocation.h; sourceTree = "<group>"; };
+		34F7FF0C161F04F40050EB60 /* LKMapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMapLocation.m; sourceTree = "<group>"; };
+		34F7FF0E161F22CE0050EB60 /* LKReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKReminder.h; sourceTree = "<group>"; };
+		34F7FF0F161F22CE0050EB60 /* LKReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKReminder.m; sourceTree = "<group>"; };
+		34F7FF11161F32050050EB60 /* LKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKManager.h; sourceTree = "<group>"; };
+		34F7FF12161F32050050EB60 /* LKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKManager.m; sourceTree = "<group>"; };
+		34F7FF15161F3E2E0050EB60 /* AllRemindersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRemindersViewController.h; sourceTree = "<group>"; };
+		34F7FF16161F3E2E0050EB60 /* AllRemindersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllRemindersViewController.m; sourceTree = "<group>"; };
+		34F7FF1A161F40460050EB60 /* LKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKConstants.h; sourceTree = "<group>"; };
+		34F7FF1B161F40460050EB60 /* LKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKConstants.m; sourceTree = "<group>"; };
+		34F7FF1D162061A30050EB60 /* LKMapSelectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKMapSelectionDelegate.h; sourceTree = "<group>"; };
+		34F7FF1E162069A40050EB60 /* AllRemindersView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllRemindersView_iPhone.xib; sourceTree = "<group>"; };
+		34F7FF20162074270050EB60 /* LKReminderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKReminderModel.h; sourceTree = "<group>"; };
+		34F7FF21162074280050EB60 /* LKReminderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKReminderModel.m; sourceTree = "<group>"; };
+		34F7FF62162445010050EB60 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		34F7FF6B16257B6A0050EB60 /* AddReminderView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddReminderView_iPhone.xib; sourceTree = "<group>"; };
+		34F7FF6D162580A30050EB60 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		34F7FF6E162580A30050EB60 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +103,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F7FF63162445010050EB60 /* QuartzCore.framework in Frameworks */,
+				34F7FED21614A1330050EB60 /* CoreLocation.framework in Frameworks */,
+				34E1CCA616135BC200C4AE32 /* MapKit.framework in Frameworks */,
 				34E1CC8116135ACB00C4AE32 /* UIKit.framework in Frameworks */,
 				34E1CC8316135ACB00C4AE32 /* Foundation.framework in Frameworks */,
 				34E1CC8516135ACB00C4AE32 /* CoreGraphics.framework in Frameworks */,
@@ -49,9 +115,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3422A99D16A987B2004891D7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				34DAC48C16FA07AD0087AE0A /* Controllers */,
+				3465F78D16F5B980006DB311 /* Theme */,
+				342671A816C6747700994966 /* Cell */,
+				34F7FF0E161F22CE0050EB60 /* LKReminder.h */,
+				34F7FF0F161F22CE0050EB60 /* LKReminder.m */,
+				34E1CCA216135B7200C4AE32 /* LocationSelectionViewController.h */,
+				34E1CCA316135B7200C4AE32 /* LocationSelectionViewController.m */,
+				34F7FEF6161C6F4F0050EB60 /* LKMediator.h */,
+				34F7FEF7161C6F4F0050EB60 /* LKMediator.m */,
+				34488AF116412D2F00A06A3A /* LKLocationDelegate.h */,
+				34488AF216412D2F00A06A3A /* LKLocationDelegate.m */,
+				34F7FF0B161F04F40050EB60 /* LKMapLocation.h */,
+				34F7FF0C161F04F40050EB60 /* LKMapLocation.m */,
+				34F7FF1D162061A30050EB60 /* LKMapSelectionDelegate.h */,
+				34F7FF20162074270050EB60 /* LKReminderModel.h */,
+				34F7FF21162074280050EB60 /* LKReminderModel.m */,
+				34F7FF6D162580A30050EB60 /* AddReminderViewController.h */,
+				34F7FF6E162580A30050EB60 /* AddReminderViewController.m */,
+				34CA24CE1629B64F00B90D1A /* LKUtils.h */,
+				34CA24CF1629B64F00B90D1A /* LKUtils.m */,
+				34F7FF11161F32050050EB60 /* LKManager.h */,
+				34F7FF12161F32050050EB60 /* LKManager.m */,
+				34F7FF15161F3E2E0050EB60 /* AllRemindersViewController.h */,
+				34F7FF16161F3E2E0050EB60 /* AllRemindersViewController.m */,
+				34F7FF1A161F40460050EB60 /* LKConstants.h */,
+				34F7FF1B161F40460050EB60 /* LKConstants.m */,
+				34E1CC9016135ACB00C4AE32 /* AppDelegate.m */,
+				34E1CC8F16135ACB00C4AE32 /* AppDelegate.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		3422A99E16A987DE004891D7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				34DCA6F5169AF79700434658 /* UIView+DCUIView.h */,
+				34DCA6F6169AF79800434658 /* UIView+DCUIView.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		3422A99F16A98814004891D7 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				34F7FF1E162069A40050EB60 /* AllRemindersView_iPhone.xib */,
+				3422A99016A842C7004891D7 /* LKReminderCell_iPhone.xib */,
+				34F7FF6B16257B6A0050EB60 /* AddReminderView_iPhone.xib */,
+				34E1CCA016135AFD00C4AE32 /* LocationSelectionView_iPhone.xib */,
+				34DAC48A16FA02810087AE0A /* ReminderSummaryView_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		3422A9A116A9882F004891D7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		342671A816C6747700994966 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3422A98D16A8428C004891D7 /* LKReminderTableViewCell.h */,
+				3422A98E16A8428C004891D7 /* LKReminderTableViewCell.m */,
+				342671E216C9A56800994966 /* LKPanGestureProtocol.h */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		3465F78D16F5B980006DB311 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				34F7FEFA161C75470050EB60 /* LKThemeProvider.h */,
+				34F7FEFB161C75470050EB60 /* LKThemeProvider.m */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		34DAC48C16FA07AD0087AE0A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34DAC49016FA08030087AE0A /* LKReminderSummary.h */,
+				34DAC49116FA08030087AE0A /* LKReminderSummary.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		34DCA6F8169AF84B00434658 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				342671A616C31A6300994966 /* material_02.jpg */,
+				34DCA6F9169AF84B00434658 /* darkbackground@2x.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
 		34E1CC7116135ACA00C4AE32 = {
 			isa = PBXGroup;
 			children = (
+				34F7FF62162445010050EB60 /* QuartzCore.framework */,
+				34F7FED11614A1330050EB60 /* CoreLocation.framework */,
+				34E1CCA516135BC200C4AE32 /* MapKit.framework */,
 				34E1CC8616135ACB00C4AE32 /* Loky */,
 				34E1CC7F16135ACB00C4AE32 /* Frameworks */,
 				34E1CC7D16135ACB00C4AE32 /* Products */,
@@ -79,13 +248,13 @@
 		34E1CC8616135ACB00C4AE32 /* Loky */ = {
 			isa = PBXGroup;
 			children = (
-				34E1CC8F16135ACB00C4AE32 /* AppDelegate.h */,
-				34E1CC9016135ACB00C4AE32 /* AppDelegate.m */,
-				34E1CC9216135ACB00C4AE32 /* ViewController.h */,
-				34E1CC9316135ACB00C4AE32 /* ViewController.m */,
-				34E1CC9516135ACB00C4AE32 /* ViewController_iPhone.xib */,
-				34E1CC9816135ACB00C4AE32 /* ViewController_iPad.xib */,
+				3422A9A116A9882F004891D7 /* iPad */,
+				3422A99F16A98814004891D7 /* iPhone */,
+				3422A99E16A987DE004891D7 /* Categories */,
+				3422A99D16A987B2004891D7 /* Common */,
 				34E1CC8716135ACB00C4AE32 /* Supporting Files */,
+				3465F78E16F5F529006DB311 /* DCPanGesture.h */,
+				3465F78F16F5F529006DB311 /* DCPanGesture.m */,
 			);
 			path = Loky;
 			sourceTree = "<group>";
@@ -93,6 +262,7 @@
 		34E1CC8716135ACB00C4AE32 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34DCA6F8169AF84B00434658 /* images */,
 				34E1CC8816135ACB00C4AE32 /* Loky-Info.plist */,
 				34E1CC8916135ACB00C4AE32 /* InfoPlist.strings */,
 				34E1CC8C16135ACB00C4AE32 /* main.m */,
@@ -153,8 +323,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E1CC8B16135ACB00C4AE32 /* InfoPlist.strings in Resources */,
-				34E1CC9716135ACB00C4AE32 /* ViewController_iPhone.xib in Resources */,
-				34E1CC9A16135ACB00C4AE32 /* ViewController_iPad.xib in Resources */,
+				34E1CCA116135AFD00C4AE32 /* LocationSelectionView_iPhone.xib in Resources */,
+				34F7FF1F162069A50050EB60 /* AllRemindersView_iPhone.xib in Resources */,
+				34F7FF6C16257B6A0050EB60 /* AddReminderView_iPhone.xib in Resources */,
+				34DCA6FA169AF84B00434658 /* darkbackground@2x.jpg in Resources */,
+				3422A99116A842C8004891D7 /* LKReminderCell_iPhone.xib in Resources */,
+				342671A716C31A6300994966 /* material_02.jpg in Resources */,
+				34DAC48B16FA02810087AE0A /* ReminderSummaryView_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +342,22 @@
 			files = (
 				34E1CC8D16135ACB00C4AE32 /* main.m in Sources */,
 				34E1CC9116135ACB00C4AE32 /* AppDelegate.m in Sources */,
-				34E1CC9416135ACB00C4AE32 /* ViewController.m in Sources */,
+				34E1CCA416135B7200C4AE32 /* LocationSelectionViewController.m in Sources */,
+				34F7FEF8161C6F500050EB60 /* LKMediator.m in Sources */,
+				34F7FEFC161C75470050EB60 /* LKThemeProvider.m in Sources */,
+				34F7FF0D161F04F40050EB60 /* LKMapLocation.m in Sources */,
+				34F7FF10161F22CE0050EB60 /* LKReminder.m in Sources */,
+				34F7FF13161F32050050EB60 /* LKManager.m in Sources */,
+				34F7FF18161F3E2F0050EB60 /* AllRemindersViewController.m in Sources */,
+				34F7FF1C161F40460050EB60 /* LKConstants.m in Sources */,
+				34F7FF22162074280050EB60 /* LKReminderModel.m in Sources */,
+				34F7FF6F162580A40050EB60 /* AddReminderViewController.m in Sources */,
+				34CA24D01629B64F00B90D1A /* LKUtils.m in Sources */,
+				34488AF316412D2F00A06A3A /* LKLocationDelegate.m in Sources */,
+				34DCA6F7169AF79800434658 /* UIView+DCUIView.m in Sources */,
+				3422A98F16A8428D004891D7 /* LKReminderTableViewCell.m in Sources */,
+				3465F79016F5F529006DB311 /* DCPanGesture.m in Sources */,
+				34DAC49216FA08030087AE0A /* LKReminderSummary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,22 +370,6 @@
 				34E1CC8A16135ACB00C4AE32 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		34E1CC9516135ACB00C4AE32 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34E1CC9616135ACB00C4AE32 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		34E1CC9816135ACB00C4AE32 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34E1CC9916135ACB00C4AE32 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,10 +427,17 @@
 		34E1CC9E16135ACB00C4AE32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kelly Enos (8MNE5KEMKF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kelly Enos (8MNE5KEMKF)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Loky/Loky-Prefix.pch";
 				INFOPLIST_FILE = "Loky/Loky-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E3F06CBD-978D-4271-A757-8EE563A4964B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E3F06CBD-978D-4271-A757-8EE563A4964B";
+				SDKROOT = iphoneos5.1;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,10 +445,17 @@
 		34E1CC9F16135ACB00C4AE32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kelly Enos (8MNE5KEMKF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kelly Enos (8MNE5KEMKF)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Loky/Loky-Prefix.pch";
 				INFOPLIST_FILE = "Loky/Loky-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E3F06CBD-978D-4271-A757-8EE563A4964B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF0A2822-08DF-40A2-AEDE-675292AE4D02";
+				SDKROOT = iphoneos5.1;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -291,6 +479,7 @@
 				34E1CC9F16135ACB00C4AE32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

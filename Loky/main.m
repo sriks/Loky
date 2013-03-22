@@ -12,6 +12,7 @@
 
 int main(int argc, char *argv[])
 {
+    NSLog(@"loading from %s",argv[0]);
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
